@@ -1,0 +1,44 @@
+header{
+    text-align: right;
+}
+
+header a{
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 13px;
+    color: #141414;
+    margin: 12px;           
+}
+
+header a:hover{
+    color: dimgray;
+    text-decoration: underline;
+}
+
+.container{
+    height: 14em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container2{
+    height: 5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#h3img{
+    font-family: Arial;
+    color: rgb(85, 137, 233);
+    font-size: 16px;
+    margin-left: -60px;
+}
+
+#h3adv{
+    font-family: Arial;
+    color: rgb(230, 56, 56);
+    font-size: 16px;
+    margin-left: -60px;
+}
