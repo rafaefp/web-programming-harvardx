@@ -1,12 +1,17 @@
+body{
+    margin-top: 20px;
+}
+
 header{
     text-align: right;
+    margin-right: 30px;
 }
 
 header a{
     font-family: Arial;
     text-decoration: none;
     font-size: 13px;
-    color: #141414;
+    color: rgba(0, 0, 0, 0.87);
     margin: 12px;           
 }
 
@@ -18,27 +23,114 @@ header a:hover{
 .container{
     height: 14em;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 20px;    
 }
 
-.container2{
-    height: 5em;
+.container2{    
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;    
 }
 
-#h3img{
-    font-family: Arial;
-    color: rgb(85, 137, 233);
+.container3{    
+    display: flex;
+    margin-left: 40%;
+    margin-top: 9%;        
+}
+
+.container4{
+    display: flex;        
+    margin-right: 540px;
+    margin-top: -40px;
+    margin-left: 755px;
+}
+
+.container5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.campo{
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid lightgrey;
+    padding: 5px 8px 0px 16px;
+    padding-left: 40px;
     font-size: 16px;
-    margin-left: -60px;
+    background-image: url(img/searchicon.png);
+    background-position: 12px 13px;
+    background-repeat: no-repeat;
+}
+
+.campo:hover{
+    box-shadow: 1px 1px 3px 1px lightgrey;
+    border
+}
+
+.botao{
+    width: 130px;
+    height: 36px;
+    border: 1px solid #F8F9FA;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    background-color: #F8F9FA; 
+    border-radius: 4px; 
+    color: #3c4043;
+    font-size: 14px;
+}
+
+.botao:hover{
+    border: 1px solid lightgrey;
+}
+
+.botao2{
+    width: 170px;
+    height: 36px;
+    border: 1px solid #F8F9FA;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    background-color: #F8F9FA; 
+    border-radius: 4px; 
+    color: #3c4043;
+    font-size: 14px;
+}
+
+.botao2:hover{
+    border: 1px solid lightgrey;
+}
+
+.botao3{
+    width: 190px;
+    height: 36px;
+    border: 1px solid #F8F9FA;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    background-color: #F8F9FA; 
+    border-radius: 4px; 
+    color: #3c4043;
+    font-size: 14px;
+}
+
+.botao3:hover{
+    border: 1px solid lightgrey;
+}
+
+#p-img{
+    font-family: Arial;
+    color: #4285f4;
+    font-size: 16px;    
 }
 
 #h3adv{
     font-family: Arial;
-    color: rgb(230, 56, 56);
+    color: #d93025;
     font-size: 16px;
     margin-left: -60px;
 }
