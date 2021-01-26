@@ -56,6 +56,42 @@ header a:hover{
     flex-direction: column; 
 }
 
+.container6{
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;     
+}
+
+.container7{    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 10px; 
+}
+
+.container8{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 150px;
+}
+
+.container9{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 150px;
+    padding-bottom: 12px;    
+}
+
 .campo{
     width: 500px;
     height: 40px;
@@ -67,6 +103,18 @@ header a:hover{
     background-image: url(img/searchicon.png);
     background-position: 12px 13px;
     background-repeat: no-repeat;
+}
+
+.campo2{
+    height: 25px;
+    width: 600px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 1px 8px;    
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: 400px;    
 }
 
 .campo:hover{
@@ -128,9 +176,15 @@ header a:hover{
     font-size: 16px;    
 }
 
-#h3adv{
+#p-adv{
     font-family: Arial;
     color: #d93025;
-    font-size: 16px;
-    margin-left: -60px;
+    font-size: 16px;    
+    font-weight: bold;
+}
+
+#label{
+    font-family: Arial;
+    color: #222222;
+    font-size: 13px;
 }
