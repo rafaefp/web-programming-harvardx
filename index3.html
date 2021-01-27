@@ -28,27 +28,27 @@
             <p>Find pages with...</p>
         </div>
         
-        <div class="container9">
-            <label id="label" for="label">all these words:</label>
-            <input class="campo2" type="text" name="q">
-        </div>
-        <div class="container9">
-            <label id="label" for="label">this exact word or phrase:</label>
-            <input class="campo2" type="text" name="q">
-        </div>
-        <div class="container9">
-            <label id="label" for="label">any of these words:</label>
-            <input class="campo2" type="text" name="q">
-        </div>
-        <div class="container9">
-            <label id="label" for="label">none of these words:</label>
-            <input class="campo2" type="text" name="q">
-        </div>
-                   
-            <!-- <form action="https://www.google.com/advanced_search">
-                <input class="campo" type="text" name="q">
-                <input class="botao3" type="submit" value="Google Advanced Search">
-            </form> -->
+        <form action="https://google.com/search" method="GET" name="f">
+            <div class="container9">
+                <label id="label" for="label">all these words:</label>
+                <input class="campo2" type="text" name="as_q">
+            </div>
+            <div class="container9">
+                <label id="label" for="label">this exact word or phrase:</label>
+                <input class="campo2" type="text" name="as_epq">
+            </div>
+            <div class="container9">
+                <label id="label" for="label">any of these words:</label>
+                <input class="campo2" type="text" name="as_oq">
+            </div>
+            <div class="container9">
+                <label id="label" for="label">none of these words:</label>
+                <input class="campo2" type="text" name="as_eq">
+            </div>
+            <div class="container10">
+                <input class="botao3" type="submit" value="Advanced Search">
+            </div>
+        </form>            
         
     </body>
 </html>

@@ -92,6 +92,13 @@ header a:hover{
     padding-bottom: 12px;    
 }
 
+.container10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
 .campo{
     width: 500px;
     height: 40px;
@@ -123,7 +130,7 @@ header a:hover{
 }
 
 .botao{
-    width: 130px;
+    width: 150px;
     height: 36px;
     border: 1px solid #F8F9FA;
     margin: 11px 4px;
@@ -155,19 +162,26 @@ header a:hover{
 }
 
 .botao3{
-    width: 190px;
-    height: 36px;
-    border: 1px solid #F8F9FA;
-    margin: 11px 4px;
-    padding: 0px 16px;
-    background-color: #F8F9FA; 
-    border-radius: 4px; 
-    color: #3c4043;
-    font-size: 14px;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    margin: 10px 0;
+    padding: 0 12px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #4d90fe;    
+    color: #fff;
+    border-radius: 2px;    
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;    
 }
 
 .botao3:hover{
     border: 1px solid lightgrey;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    border: 1px solid #3079ed;
 }
 
 #p-img{
