@@ -12,7 +12,7 @@ header a{
     text-decoration: none;
     font-size: 13px;
     color: rgba(0, 0, 0, 0.87);
-    margin: 12px;           
+    margin: 12px;
 }
 
 header a:hover{
@@ -26,24 +26,24 @@ header a:hover{
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-.container2{    
+.container2{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
-.container3{    
+.container3{
     display: flex;
     margin-left: 40%;
-    margin-top: 9%;        
+    margin-top: 9%;
 }
 
 .container4{
-    display: flex;        
+    display: flex;
     margin-right: 540px;
     margin-top: -40px;
     margin-left: 755px;
@@ -53,7 +53,7 @@ header a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .container6{
@@ -61,15 +61,15 @@ header a:hover{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex-direction: column;     
+    flex-direction: column;
 }
 
-.container7{    
+.container7{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .container8{
@@ -89,17 +89,17 @@ header a:hover{
     justify-content: left;
     flex-direction: row;
     margin-left: 150px;
-    padding-bottom: 12px;    
+    padding-bottom: 12px;
 }
 
 .container10{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.campo{
+.field{
     width: 500px;
     height: 40px;
     border-radius: 25px;
@@ -112,56 +112,55 @@ header a:hover{
     background-repeat: no-repeat;
 }
 
-.campo2{
+.field2{
     height: 25px;
     width: 600px;
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
-    padding: 1px 8px;    
+    padding: 1px 8px;
     font-size: 13px;
     margin-left: auto;
-    margin-right: 400px;    
+    margin-right: 400px;
 }
 
-.campo:hover{
+.field:hover{
     box-shadow: 1px 1px 3px 1px lightgrey;
-    border
 }
 
-.botao{
+.button{
     width: 150px;
     height: 36px;
     border: 1px solid #F8F9FA;
     margin: 11px 4px;
     padding: 0px 16px;
-    background-color: #F8F9FA; 
-    border-radius: 4px; 
+    background-color: #F8F9FA;
+    border-radius: 4px;
     color: #3c4043;
     font-size: 14px;
 }
 
-.botao:hover{
+.button:hover{
     border: 1px solid lightgrey;
 }
 
-.botao2{
+.button2{
     width: 170px;
     height: 36px;
     border: 1px solid #F8F9FA;
     margin: 11px 4px;
     padding: 0px 16px;
-    background-color: #F8F9FA; 
-    border-radius: 4px; 
+    background-color: #F8F9FA;
+    border-radius: 4px;
     color: #3c4043;
     font-size: 14px;
 }
 
-.botao2:hover{
+.button2:hover{
     border: 1px solid lightgrey;
 }
 
-.botao3{
+.button3{
     user-select: none;
     line-height: 100%;
     height: 30px;
@@ -170,15 +169,15 @@ header a:hover{
     padding: 0 12px;
     box-shadow: none;
     background-color: #4d90fe;
-    border: 1px solid #4d90fe;    
+    border: 1px solid #4d90fe;
     color: #fff;
-    border-radius: 2px;    
+    border-radius: 2px;
     font-size: 11px;
     font-weight: bold;
-    text-align: center;    
+    text-align: center;
 }
 
-.botao3:hover{
+.button3:hover{
     border: 1px solid lightgrey;
     background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
     border: 1px solid #3079ed;
@@ -187,13 +186,13 @@ header a:hover{
 #p-img{
     font-family: Arial;
     color: #4285f4;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 #p-adv{
     font-family: Arial;
     color: #d93025;
-    font-size: 16px;    
+    font-size: 16px;
     font-weight: bold;
 }
 
